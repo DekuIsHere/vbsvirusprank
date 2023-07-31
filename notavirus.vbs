@@ -132,7 +132,7 @@ x=msgbox ("Are you sure that you want to permanently delete all directories, fil
 WScript.sleep 40
 wshshell.sendkeys "C:\Users\Dumbass\Desktop\files.bat "
 WScript.sleep 40
+wshShell.sendkeys(chr(174))
 for i = 0 to 50
-WshShell.SendKeys(chr(174))
-Next
+next
 wshshell.run "https://www.youtube.com/watch?v=mx86-rTclzA"
